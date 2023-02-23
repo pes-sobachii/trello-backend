@@ -1,5 +1,5 @@
-import Card from "../models/Card.js";
-import List from "../models/List.js";
+import Card from "../models/lard.js";
+import List from "../models/list.js";
 
 export const createCard = async (req, res) => {
     try {
