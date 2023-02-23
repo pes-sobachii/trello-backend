@@ -17,7 +17,6 @@ app.delete('/card/:id', deleteCard)
 app.post('/card', createCard)
 app.put('/card', updateCard)
 app.get('/lists', getLists)
-app.get('/', (req, res) => res.send('success'))
 
 app.listen(process.env.PORT || 5000, (err) => {
     if (err) {
